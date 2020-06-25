@@ -1,3 +1,0 @@
-from adoptopenjdk/openjdk11:latest
-COPY target/user-registration-ws-0.0.1-SNAPSHOT.jar userws.jar
-ENTRYPOINT ["java","-jar","userws.jar"]

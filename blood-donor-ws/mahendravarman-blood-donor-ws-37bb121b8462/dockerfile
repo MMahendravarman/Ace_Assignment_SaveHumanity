@@ -1,3 +1,0 @@
-from adoptopenjdk/openjdk11:latest
-COPY target/blood-donor-ws-0.0.1-SNAPSHOT.jar blooddonorws.jar
-ENTRYPOINT ["java","-jar","blooddonorws.jar"]
